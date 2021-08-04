@@ -1,0 +1,9 @@
+https://practice.geeksforgeeks.org/problems/increment-and-decrement-python/1/?track=fork-python&batchId=119
+
+
+def do_operation(X, Y):
+    # Your code here
+    X=X-1
+    Y=Y+1
+    print (X)
+    print (Y)
