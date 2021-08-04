@@ -1,0 +1,10 @@
+https://practice.geeksforgeeks.org/problems/is-and-in-operator/1/?track=fork-python&batchId=119
+
+def number_present(num_list, Q):
+    #num is a 'list', Q is a 'int'
+    for i in range(len(num_list)):    #write this here - i in range(len(num_list))
+                             # see the use of 'in' in for loop
+        if (num_list[i] is Q) : #write this here - num_list[i] is Q
+                             # see the use of 'is' as equal to
+            return True
+    return False 
