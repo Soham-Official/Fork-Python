@@ -1,0 +1,4 @@
+https://practice.geeksforgeeks.org/problems/space-seperated-python/1/?track=fork-python&batchId=119
+
+def print_fun():
+    print("Geeks","For","Geeks")
