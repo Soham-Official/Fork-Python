@@ -1,0 +1,11 @@
+https://practice.geeksforgeeks.org/problems/operators-in-python/1/?track=fork-python&batchId=119
+
+
+def do_operation(X, Y):
+    print(X+Y)
+    print(X-Y)
+    print(X*Y)
+    print(X/Y)
+    print(X**Y)
+   
+    print(X//Y)
