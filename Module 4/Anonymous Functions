@@ -1,0 +1,4 @@
+https://practice.geeksforgeeks.org/problems/anonymous-functions-python/1/?track=python-module-4&batchId=119
+
+
+power = lambda a, b : a ** b
