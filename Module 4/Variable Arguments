@@ -1,0 +1,8 @@
+https://practice.geeksforgeeks.org/problems/variable-arguments-python/1/?track=python-module-4&batchId=119
+
+
+def multivar(n, *var): 
+    sm=n
+    for i in var: sm+=i
+    print(sm)
+    
