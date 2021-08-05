@@ -1,0 +1,14 @@
+https://practice.geeksforgeeks.org/problems/string-functions-i/1/?track=python-module-3&batchId=119
+
+
+def trim(str):
+    return  str.strip()    
+
+def exists(str, x):
+    return  str.find(x)    
+
+def titleIt(str):
+    return  str.title()    
+
+def casesSwap(str):
+    return str.swapcase()     
