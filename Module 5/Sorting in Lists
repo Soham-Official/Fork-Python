@@ -1,0 +1,7 @@
+https://practice.geeksforgeeks.org/problems/sorting-in-lists-python/1/?track=python-module-5&batchId=119
+
+
+def customSort(arr):
+    
+    
+    return sorted(arr)
