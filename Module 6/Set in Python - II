@@ -1,0 +1,24 @@
+https://practice.geeksforgeeks.org/problems/set-in-python-ii/1/?track=python-module-6&batchId=119
+def common_in_set(a, b):
+    x=a.intersection(b)
+    return x
+    # Your code here
+    
+
+# Function to find difference in sets
+# Should return the difference in sets
+def diff(a, b):
+    x=a.difference(b)
+    return x
+    # Your code here
+
+
+
+# Function to find union of sets
+# Should return the union of sets
+def all_in_set(a, b):
+    x=a.union(b)
+    return x
+    # Your code here
+    
+    
