@@ -1,0 +1,27 @@
+https://practice.geeksforgeeks.org/problems/classes-and-objects-python/1/?track=python-module-4&batchId=119
+
+
+class Character:
+    def __init__(self, Name, hp):
+        self.name = Name ##Assigning name to the current object's name variable
+        self.hp = hp ##Assigning hp to the current object's hp variable
+    def boost(self, boost):
+        self.hp = self.hp * boost ## boosting current object's hp
+    def getName(self):
+        return self.name
+    def getHp(self):
+        return self.hp
+
+
+def fusion(a, b):
+    l1 = int(len(a.name)/2)
+    l2 = int(len(b.name)/2)
+    h = a.hp + b.hp
+    s = a.name[:l1] + b.name[l2:]
+    o = Character(s,h)
+    return o
+
+    
+    
+def show(a): ##Already completed
+    print(a.getName(), a.getHp()) ##printing the newobject's name and hp
