@@ -1,0 +1,23 @@
+https://practice.geeksforgeeks.org/problems/set-in-python-i/1/?track=python-module-6&batchId=119
+def insert(s, element):
+    s.add(element)
+    # Your code here
+    
+    
+    
+    
+
+# Function to remove element from set
+# No return and nothing to print
+def remove_from_set(s, element):
+    s.remove(element)
+    # Your code here
+    
+    
+    
+    
+    
+# Function to find sum of elements in set
+# return value should be there as sum
+def sum_set(s):
+    return sum(s)
