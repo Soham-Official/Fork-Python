@@ -1,0 +1,14 @@
+https://practice.geeksforgeeks.org/problems/average-min-max/1/?track=python-module-5&batchId=119
+
+
+def calc_average(arr):
+    x=min(arr)
+    y=max(arr)
+    s=sum(arr)-x-y
+    l=len(arr)-2
+    s=s//l
+    
+    # Your code here
+    
+    
+    return s
