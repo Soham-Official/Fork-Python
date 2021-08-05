@@ -1,0 +1,16 @@
+https://practice.geeksforgeeks.org/problems/zero-converter-python/1/?track=python-module-2&batchId=119
+
+
+def pos(n):
+    while(n!=0):
+        n=n-1
+        print(n,end=" ")
+        
+        
+    
+def neg(n):
+    while(n<=0):
+        
+        print(n,end=" ")
+        n=n+1
+    ##Write the code
