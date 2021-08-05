@@ -1,0 +1,8 @@
+https://practice.geeksforgeeks.org/problems/if-loop-python/1/?track=python-module-2&batchId=119
+
+
+def friends_in_trouble(j_angry, s_angry):
+    if(j_angry is s_angry):
+        return True
+    else:
+        return False
