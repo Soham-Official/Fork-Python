@@ -1,0 +1,10 @@
+https://practice.geeksforgeeks.org/problems/functions-python/1/?track=python-module-4&batchId=119
+
+
+def isPrime(n):
+    x=math.sqrt(n)
+    x=int(x)
+    for i in range(2,x):
+        if(n%i==0):
+            return False
+    return True
