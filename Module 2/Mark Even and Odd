@@ -1,0 +1,9 @@
+https://practice.geeksforgeeks.org/problems/mark-even-and-odd/1/?track=python-module-2&batchId=119
+
+def checkOddEven(x):
+    if(x % 2 == 0):
+      # Complete the statement below
+      return True
+    else:
+        # Complete the statement below
+        return False
