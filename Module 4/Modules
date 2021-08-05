@@ -1,0 +1,8 @@
+https://practice.geeksforgeeks.org/problems/modules/1/?track=python-module-4&batchId=119
+
+
+def math_func():
+    #import math module and print pi and e
+    print("pi =",math.pi)
+    print("e =",math.e)
+    
