@@ -1,0 +1,10 @@
+https://practice.geeksforgeeks.org/problems/regular-expressions-2-python/1/?track=python-module-3&batchId=119
+
+
+def validate(str):
+    pat= r"([a-zA-Z]+) ([!@#$%]+) ([0-9]+)"
+    match = re.search(pat, str)
+    if(match):
+        return True
+    else:
+        return False
