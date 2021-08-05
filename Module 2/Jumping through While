@@ -1,0 +1,14 @@
+https://practice.geeksforgeeks.org/problems/jumping-through-while-python/1/?track=python-module-2&batchId=119
+
+
+def printIncreasingPower(x):
+    ##Your code here
+    
+    # Loop to jump in powers of 2
+    z=1
+    while(z**2<=x):
+        ##Your code here
+        
+        print ( z**2, end = " ")
+        z+=1
+        ##Your code here
