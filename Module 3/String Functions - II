@@ -1,0 +1,9 @@
+https://practice.geeksforgeeks.org/problems/string-functions-ii/1/?track=python-module-3&batchId=119
+
+
+def gfg(s):
+    b = s.lower()
+    if(b.startswith('gfg') or b.endswith('gfg')):  
+        print ("Yes")
+    else:
+        print ("No")
